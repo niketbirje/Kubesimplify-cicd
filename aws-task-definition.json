@@ -29,7 +29,7 @@
             "memoryReservation": 128,
             "volumesFrom": [],
             "stopTimeout": null,
-            "image": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxxxx",
+            "image": "599748233849.dkr.ecr.us-east-1.amazonaws.com/demo-repo",
             "startTimeout": null,
             "firelensConfiguration": null,
             "dependsOn": null,
@@ -46,7 +46,7 @@
             "dockerLabels": null,
             "systemControls": null,
             "privileged": null,
-            "name": "xxxxxxxxxxxxxxx"
+            "name": "demo-repo"
         }
     ],
     "placementConstraints": [],
@@ -56,20 +56,20 @@
         "xxxxxxxx",
         "xxx"
     ],
-    "taskDefinitionArn": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:599748233849:task-definition/flask:1",
     "family": "xxx-xxx",
     "requiresAttributes": [
         {
             "targetId": null,
             "targetType": null,
             "value": null,
-            "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            "name": "flask"
         },
         {
             "targetId": null,
             "targetType": null,
             "value": null,
-            "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            "name": "flask"
         }
     ],
     "pidMode": null,
